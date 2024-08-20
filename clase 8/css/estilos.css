@@ -1,0 +1,47 @@
+
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+.grande{
+    font-size: 50px;
+}
+
+*{
+    background-color: green;
+
+}
+
+p.centrar{
+    text-align: center;
+}
+.rojo{
+    border: solid firebrick;
+    border-width: 10px 5px 3px 2px;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+
+
+.rosa{
+     border: 10px dashed hotpink;
+     border-width: thick;
+}
+
+
+
+.amarillo{
+     border: 10px double gold;
+}
+
+
+
+.azul{
+     border: 10px dotted turquoise;
+}
