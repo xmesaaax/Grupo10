@@ -1,0 +1,24 @@
+.rojo{
+    color:#e63946
+}
+div{
+    background:deeppink;
+}
+.caja{
+    float:left;
+}
+.violeta{
+    color:rgb(131,56,236)
+}
+.hexadecimal{
+background-color:#0091ad;
+}
+.HSL{
+    background-color:de hsl(195, 100%,50%) ;
+}
+.hsltransparencia{
+background-color:hsla(195,100%,50%,0.5) ; 
+}
+*{
+    background-color:dimgray ;
+}
