@@ -1,0 +1,32 @@
+h1{
+border: 3px;
+color: solid blueviolet;
+text-align: center;color: cornflowerblue;
+padding: 10px;
+display: block;
+}
+div{
+border: 3px;
+color: solid blueviolet;
+text-align: center;color: cornflowerblue;
+padding: 10px;
+display: block;
+}
+p{
+border: 3px;
+color: solid blueviolet;
+text-align: center;color: cornflowerblue;
+padding: 10px;
+display: block;
+
+}
+clase a{
+    display:block
+
+}
+li{
+    display: inline
+}
+h1{ 
+    display: none
+}
