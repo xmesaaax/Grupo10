@@ -1,0 +1,33 @@
+h1{
+text-align: center;
+text-decoration:double;
+color: brown;
+}
+h2{
+    float:right;
+    color: rgb(68, 252, 191);
+}
+body{
+ background-color: rgb(255, 68, 0);
+}
+div{
+border: 3px solid rgb(180, 33, 33);
+position:sticky;
+top: 0px;
+}
+.contenedor{
+    border: 3px dashed rgb(171, 255, 46);
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    float: left;
+}
+.contenedor2{
+    border: 3px dashed rgb(230, 188, 2);
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    float:right;
+}

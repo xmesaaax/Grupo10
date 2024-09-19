@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color:orangered;
+}
+h2{
+    text-align: center;
+    color:skyblue;
+}
+img{
+    width: 300px;
+    margin: 10px;
+}
+li{
+    margin: left;
+}
+p{
+    margin: right;
+}
+body{
+    background-color: orange;
+}
