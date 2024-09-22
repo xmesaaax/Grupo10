@@ -11,3 +11,7 @@ body{
 .contenedor{
 text-align: center;
 }
+img{
+    width: 300px;
+    margin: 10px;
+}

@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel='stylesheet' href="cSS/estilos.css"  />
 </head>
 <body>
     <h1>Trabaja con nosotros</h1>
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" required><br><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="telefono">Número de teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+        <label for="posicion">Posición deseada:</label><br>
+        <select id="posicion" name="posicion" required>
+            <option value="">Selecciona una opción</option>
+            <option value="cajero">Cajero</option>
+            <option value="cocinero">Cocinero</option>
+            <option value="supervisor">Supervisor</option>
+        </select><br><br>
+        <label for="curriculum">Sube tu Currículum (PDF):</label><br>
+        <input type="file" id="curriculum" name="curriculum" accept=".pdf" required><br><br>
+        <label for="disponibilidad">Disponibilidad horaria:</label><br>
+        <input type="text" id="disponibilidad" name="disponibilidad" required><br><br>
+        <input type="submit" value="Enviar Solicitud">
+    </form>
 </body>
 </html>
