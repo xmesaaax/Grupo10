@@ -1,22 +1,15 @@
 h1{
-float: left;
-text-decoration:double;
-color: brown;
+color: rgb(160, 45, 45);
 }
 h2{
-    float: right;
-    color: rgb(68, 252, 191);
+    color: rgb(185, 43, 43);
 }
 body{
- background-color: rgb(255, 68, 0);
+ background-color: orange;
 }
-div{
-border: 3px solid rgb(180, 33, 33);
-position:sticky;
-top: 0px;
-}
+
 .contenedor{
-    border: 3px dashed rgb(171, 255, 46);
+    border: 3px dashed rgb(13, 206, 190);
     width: 30%;
     height: 100px;
     margin: auto;
@@ -24,7 +17,7 @@ top: 0px;
     float: left;
 }
 .contenedor2{
-    border: 3px dashed rgb(230, 188, 2);
+    border: 3px dashed rgb(230, 207, 2);
     width: 30%;
     height: 100px;
     margin: auto;
