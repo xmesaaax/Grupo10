@@ -7,6 +7,9 @@ h2{
 body{
  background-color: orange;
 }
+div{
+    text-align: center;
+}
 
 .contenedor{
     border: 3px dashed rgb(13, 206, 190);
