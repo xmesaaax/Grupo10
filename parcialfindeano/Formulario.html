@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel='stylesheet' href="css/estilos.Css"  />
+</head>
+<body>
+    <h1>Formulario</h1>
+    <ul class="links de navegacion">
+      <li><a href="inicio.html">inicio </a></li>
+      <li><a href="inicio de sesion.html">Inicio de sesion</a></li>
+      <li><a href="biografia.html">Biografia</a></li>
+    </ul>
+
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre" required><br><br>
+        <label for="apellidos">Apellidos:</label> <br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="escribe tu apellido" required><br><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="pon tu email" required><br><br>
+        <label for="telefono">Número de teléfono:</label><br>
+        <input type="number" id="telefono" name="telefono" placeholder="pon tu numero telefono" required><br><br>
+        <label for="cancion">cancion favorita:</label><br>
+        <select id="cancion" name="cancion" placeholder="pon tu cancion favorita" required>
+            <option value="">Selecciona una opción</option>
+            <option value="cajero">No puedo</option>
+            <option value="cocinero">Relax</option>
+            <option value="supervisor">Condenado para el millon</option>
+        </select><br><br>
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+</body>
+</body>
+</html>

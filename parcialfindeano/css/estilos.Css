@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(18, 15, 190);
+}
+ul{
+    text-align: center;
+    text-decoration: dashed;
+    text-emphasis-color: black;
+    }
+h1, h2 {
+color: #6a5acd;
+}
